@@ -1,0 +1,70 @@
+.main-header{
+    font-family: 'Times New Roman', Times, serif    ;
+    text-align: center;
+    color: #555; /* clean medium gray */
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+
+.records {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.record {
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.record iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.record ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.record li {
+    background: #e0e0e0;
+    margin: 5px 0;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.record iframe {
+    width: 100%;
+    height: 500px; /* make this bigger or smaller */
+    border-radius: 10px;
+}
+
+.fav-people,
+.fav-people * {
+    text-align: left !important;
+}
+
+body {
+
+background-color: lightskyblue;}
+
+.tableau-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tableauPlaceholder,
+.tableauPlaceholder object {
+    margin: 0 auto !important;
+    display: block !important;
+}
